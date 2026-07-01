@@ -14,7 +14,7 @@ import streamlit as st
 model = joblib.load("sentiment_model.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 
-st.title("🎬 Movie Review Sentiment Analysis")
+st.title("🎬 Movie Review Sentiment Prediction")
 
 st.write("Enter a movie review below.")
 
